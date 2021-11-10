@@ -1,0 +1,107 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.plan-babki {
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+
+.choose-plan-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 98px;
+}
+.choose-plan-head .plan-head-left-side {
+  width: 50%;
+}
+.choose-plan-head .plan-head-left-side h2 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #19191B;
+}
+.choose-plan-head .plan-head-right-side .plan-button {
+  padding: 21px 8px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  height: 100%;
+}
+.choose-plan-head .plan-head-right-side .plan-button a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 17px 45px;
+  color: #19191B;
+}
+.choose-plan-head .plan-head-right-side .plan-button .active {
+  background: #5454D4;
+  color: #fff;
+  border-radius: 10px 0 0 10px;
+}
+
+.choose-plan-body {
+  display: flex;
+  justify-content: space-around;
+}
+.choose-plan-body .choose-plan-body-block {
+  background: #f8f8f8;
+  padding: 34px 22px 47px 22px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.choose-plan-body .choose-plan-body-block:hover {
+  transform: scale(1.1);
+  background: #FF7143;
+}
+.choose-plan-body .choose-plan-body-block:hover span:first-child {
+  color: rgba(255, 255, 255, 0.7);
+}
+.choose-plan-body .choose-plan-body-block:hover h2 {
+  color: #fff;
+}
+.choose-plan-body .choose-plan-body-block:hover h2 span {
+  color: #fff !important;
+}
+.choose-plan-body .choose-plan-body-block:hover .benefits {
+  color: #fff;
+}
+.choose-plan-body .choose-plan-body-block:hover a {
+  background: #9F3919;
+  color: #fff;
+}
+.choose-plan-body .choose-plan-body-block span {
+  color: #696871;
+  font-size: 18px;
+}
+.choose-plan-body .choose-plan-body-block h2 {
+  color: #1D293F;
+  font-size: 60px;
+}
+.choose-plan-body .choose-plan-body-block h2 span {
+  color: #1D293F;
+}
+.choose-plan-body .choose-plan-body-block .benefits {
+  color: #696871;
+  font-size: 17px;
+  line-height: 50px;
+  margin-bottom: 36px;
+}
+.choose-plan-body .choose-plan-body-block a {
+  padding: 19px 92px;
+  background: #fff;
+  color: #5454D4;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

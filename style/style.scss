@@ -1,0 +1,149 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+}
+
+@import "variables";
+@import "mixins";
+
+//
+//%border{
+//  border-bottom: 1px solid white;
+//  color: $main;
+//}
+//
+//
+//body{
+//  background: $color;
+//}
+//
+//.text-block{
+//  width: 700px;
+//  background: #000;
+//  .text1{
+//    color: $white-color;
+//    font-size: 15px;
+//  }
+//
+//  .text2{
+//    color: $white-color;
+//    font-size: 25px;
+//  }
+//
+//  .text3{
+//    color: $white-color;
+//    font-size: 35px;
+//  }
+//
+//  p{
+//    @extend %border;
+//    &:hover{
+//      color: red;
+//    }
+//  }
+//}
+
+a{
+  text-decoration: none;
+}
+
+.plan-babki{
+  margin-top: 50px;
+}
+
+.container{
+  max-width: 1111px;
+  margin: 0 auto;
+}
+
+.choose-plan-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 98px;
+  .plan-head-left-side{
+    width: 50%;
+    h2{
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 70px;
+      color: $main-color;
+    }
+  }
+  .plan-head-right-side{
+    .plan-button{
+      padding: 21px 8px;
+      border-radius: $border-radius;
+      background: $grey-color;
+      height: 100%;
+      a{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 17px 45px;
+        color: $main-color;
+      }
+      .active{
+        background: $purple-color;
+        color: #fff;
+        border-radius: $border-radius 0 0 $border-radius;
+      }
+    }
+  }
+}
+
+.choose-plan-body{
+  display: flex;
+  justify-content: space-around;
+  .choose-plan-body-block{
+    background: $grey-color;
+    padding: 34px 22px 47px 22px;
+    text-align: center;
+    border-radius: $border-radius;
+    transition: .5s ease;
+    &:hover{
+      transform: scale(1.1);
+      background: #FF7143;
+      span{
+        &:first-child{
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+      h2{
+        color: #fff;
+        span{
+          color: #fff !important;
+        }
+      }
+      .benefits{
+        color: #fff;
+      }
+      a{
+        background: #9F3919;
+        color: #fff;
+      }
+    }
+    span{
+      color: #696871;
+      font-size: 18px;
+    }
+    h2{
+      color: #1D293F;
+      font-size: 60px;
+      span{
+        color: #1D293F;
+      }
+    }
+    .benefits{
+      color: #696871;
+      font-size: 17px;
+      line-height: 50px;
+      margin-bottom: 36px;
+    }
+    a{
+      padding: 19px 92px;
+      background: #fff;
+      color: $purple-color;
+      border-radius: $border-radius;
+    }
+  }
+}
